@@ -139,3 +139,13 @@ main>.recipe {
     }
 }
 
+@media (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    main>div {
+        margin: 0;
+    }
+}
